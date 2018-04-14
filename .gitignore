@@ -1,0 +1,15 @@
+# The build directory for this project
+Raytrace/build/
+
+# Any QTCreator project files
+**/*.user
+*.mtl
+
+# Project directories
+.idea/
+
+# Built images
+Scenes/*.png
+!Scenes/bluegrid.png
+!Scenes/earthmap1k.png
+

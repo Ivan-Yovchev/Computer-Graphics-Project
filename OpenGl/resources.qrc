@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>models/sphere.obj</file>
+        <file>shaders/fragshader_gouraud.glsl</file>
+        <file>shaders/fragshader_normal.glsl</file>
+        <file>shaders/fragshader_phong.glsl</file>
+        <file>shaders/vertshader_gouraud.glsl</file>
+        <file>shaders/vertshader_normal.glsl</file>
+        <file>shaders/vertshader_phong.glsl</file>
+        <file>textures/sun.png</file>
+        <file>textures/earth.png</file>
+        <file>textures/milky-way.png</file>
+        <file>models/inner-sphere.obj</file>
+        <file>models/horse.obj</file>
+        <file>textures/horse.png</file>
+        <file>textures/mars.png</file>
+        <file>textures/horse-normal.png</file>
+    </qresource>
+</RCC>

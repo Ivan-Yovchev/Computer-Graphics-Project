@@ -1,0 +1,56 @@
+{
+    "Eye": [200, 200, 1000],
+    "Lights": [
+        {
+            "position": [-200, 600, 1500],
+            "color": [1.0, 1.0, 1.0]
+        }
+    ],
+    "Objects": [
+        {
+            "type": "cylinder",
+            "comment": "White Cylinder",
+            "a":[24, 51, -100],
+            "b":[221, 216, -70],
+            "radius": 50,
+            "material":
+            {
+                "color": [1.0, 1.0, 1.0],
+                "ka": 0.2,
+                "kd": 0.7,
+                "ks": 0.5,
+                "n": 64
+            }
+        },
+        {
+            "type": "cylinder",
+            "comment": "Red cylindeer",
+            "a": [100, 200, 150],
+            "b":[100, 300, 150],
+            "radius": 35,
+            "material":
+            {
+                "color": [1.0, 0.0, 0.0],
+                "ka": 0.2,
+                "kd": 0.7,
+                "ks": 0.8,
+                "n": 32
+            }
+        },
+        {
+            "type": "cylinder",
+            "comment": "Green cylindeer",
+            "a": [300, 150, 100],
+            "b":[300, 300, -100],
+            "radius": 25,
+            "material":
+            {
+                "color": [0.0, 1.0, 0.0],
+                "ka": 0.2,
+                "kd": 0.7,
+                "ks": 0.8,
+                "n": 32
+            }
+        }
+    ]
+}
